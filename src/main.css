@@ -141,6 +141,6 @@ code {
 
 @media (max-width: 768px) {
   .button-section {
-    bottom: -10vh;
+    bottom: -4.5rem;
   }
 }
