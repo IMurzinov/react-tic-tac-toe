@@ -98,12 +98,13 @@ code {
 
 .button-section {
   position: absolute;
-  bottom: -8vh;
+  top: 100%;
+  margin-top: 1rem;
 
+  width: 100%;
+  justify-content: center;
   display: flex;
   gap: 2rem;
-  justify-content: center;
-  width: 100%;
 }
 
 .btn {
@@ -137,10 +138,4 @@ code {
   align-items: center;
   justify-content: center;
   z-index: 1000;
-}
-
-@media (max-width: 768px) {
-  .button-section {
-    bottom: -4.5rem;
-  }
 }

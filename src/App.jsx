@@ -135,9 +135,11 @@ export default function Game() {
                 <p className="game-name__word">TAC</p>
                 <p className="game-name__word">TOE</p>
               </div>
-              <button className="btn audiowide-regular game-start-btn" onClick={handleStart}>
-                START GAME
-              </button>
+              <div className="button-section">
+                <button className="btn audiowide-regular game-start-btn" onClick={handleStart}>
+                  START GAME
+                </button>
+              </div>
             </>
           )}
         </div>
